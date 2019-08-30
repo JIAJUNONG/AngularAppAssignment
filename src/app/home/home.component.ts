@@ -11,7 +11,7 @@ import { Color, BaseChartDirective, Label } from 'ng2-charts';
 export class HomeComponent implements OnInit {
 
   public lineChartData: ChartDataSets[] = [
-    { data: [15339, 21345, 18483, 24003, 23489, 24092, 12034], label: 'Series A' }
+    { data: [15339, 21345, 18483, 24003, 23489, 24092, 12034], label: 'Simple Data Source' }
 
   ];
   public lineChartLabels: Label[] = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -21,8 +21,9 @@ export class HomeComponent implements OnInit {
     {
       backgroundColor: 'transparent',
       borderColor: '#007bff',
-      borderWidth: 4,
-      pointBackgroundColor: '#007bff'}
+      borderWidth: 1,
+      pointBackgroundColor: '#007bff',
+      pointBorderColor: '007bff'}
   ];
 
   constructor() { }
