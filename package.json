@@ -22,7 +22,7 @@
     "@handsontable/angular": "^5.1.0",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.8.0",
-    "handsontable": "^7.1.1",
+    "handsontable": "^10.0.0",
     "ng2-charts": "^2.3.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
